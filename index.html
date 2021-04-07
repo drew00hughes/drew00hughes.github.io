@@ -1,54 +1,12 @@
 <!DOCTYPE html5>
 <style>
-body {
-    background-color: #253136;
-    margin: 0;
-}
-.header {
-    background-color: #152a38;
-    overflow: hidden;
-}
-.footer {
-    background-color: #152a38;
-    overflow: hidden;
-}
-.titleContainer {
-    padding: 2em 0;
-}
-.title {
-    color: #d1d4c9;
-    font-size: xx-large;
-    padding: 14px 16px;
+#secret1 {
     text-decoration: none;
-    cursor: pointer;
+    color:#253136;
+    padding-left: 10em;
 }
-.navigation {
-    padding: 14px 0px;
-    background-color: #152a38;
-}
-.navigation a {
-    color: #d1d4c9;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-size: x-large;
-    padding: 14px 16px;
-}
-.navigation a:hover, .navigation a.active {
-    background-color: #556e53;
-}
-.homeBody {
-    margin: 1em 10em;
-    background-color: #29435c;
-    border-radius: 10px;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.486);
-}
-.homeText{
-    color: #d1d4c9;
-    padding: 1em 5em;
-}
-.homeText p {
-    font-size: large;
+#secret1:hover {
+    color:#556e53;
 }
 </style>
 <html>
@@ -56,6 +14,12 @@ body {
     <title>Drew Hughes</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="./main.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("No secrets here! Only... secrets")
+        });
+    </script>
 </head>
 <body>
 <div class="header">
@@ -74,21 +38,24 @@ body {
         <h1>HEY</h1>
         <p>
             My name is Drew Hughes.
-            I'm a web developer, computer science graduate, and an avid fun-haver.
+            I'm a web and software developer, a future computer science graduate, and an avid fun-haver.
             I am about to complete my B.S. in Computer Science at Auburn University in May 2021.
             Outside of school and work, I love to play musical instruments, hike, and rock climb. I also love to read and to cook!
+            Please take a moment to explore, there's even a couple of hidden secrets on each page!
         </p>
-        <p>Here's a few fun things about me:</p>
-        <br>
-        <p>My favorite author is Brandon Sanderson, and my favorite book series is his <em>Stormlight Archive</em></p>
-        <p>My favorite movie is <em>Inception</em></p>
-        <p>My favorite band as of right now is <em>Colony House</em></p>
-        <p>I've been playing the piano for 16 years and I hope to continue playing it for (at least!) 16 more</p>
+        <p>In the meantime, here's a few fun things about me:</p>
+        <ul>
+            <li>My favorite author is Brandon Sanderson, and my favorite book series is his <em>Stormlight Archive</em></li>
+            <li>My favorite movie is <em>Inception</em></li>
+            <li>My favorite band as of right now is <em>Colony House</em></li>
+            <li>I've been playing the piano for 16 years and I hope to continue playing it for (at least!) 16 more</li>
+        </ul>
         <p>
-            Check out the About page to download my resume or the Projects page to view some of the projects I've had the pleasure of working on
+            Check out the About page to download my resume or the Projects page to view some of the sites I've had the pleasure of working on
             individually and through Auburn University.
         </p>
     </div>
 </div>
+<a href="http://orteil.dashnet.org/igm/?g=D6YaqZ8G" target="_blank" id="secret1">Yahaha! You found me!</a>
 </body>
 </html>
