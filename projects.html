@@ -53,8 +53,27 @@ body {
 .applicationText {
     padding-left: 1em;
 }
+.applicationText a {
+    text-decoration: none;
+    color: #d1d4c9;
+}
 .greenHR {
     color:#556e53;
+}
+.imgContainer {
+    width: 100%;
+}
+.schedulerImages img {
+    max-width: 33%;
+    max-height: 33%;
+}
+.votingImages img {
+    max-width: 45%;
+    max-height: 45%;
+}
+.flunchImages img {
+    max-width: 45%;
+    max-height: 45%;
 }
 </style>
 <html>
@@ -80,33 +99,80 @@ body {
     <div class="homeText">
         <h1>PROJECTS</h1>
         <div class="applicationText">
-            <h2>Pharmacy Scheduler</h2>
+            <a href="https://aub.ie/vaccinecovid" target="_blank"><h2>Pharmacy Scheduler  <i class="fas fa-link fa-sm"></i></h2></a>
             <p>
                 Pharmacy Scheduler is an application built around scheduling COVID-19 testing and vaccination
-                appointments for Auburn University and eventually the greater Lee County area. At the time of
-                this writing, it is currently not public facing and only available to Auburn University
-                students/faculty. Here are a few pictures of site from an average user's perspective. I need to write more here.
+                appointments for Auburn University and eventually the greater Auburn-Opelika area. The
+                purpose of this application is to allow medical administration to create testing and
+                vaccination events to streamline the relief process. Users are invited to schedule an
+                appointment on a certain day to be tested or vaccinated. This application includes an
+                automatic email system based around the appointments. At the time of this writing, it is currently
+                not public facing and only available to Auburn University students/faculty. 
+                Here are a few pictures of site from an average user's perspective. (Click to enlarge)
+            </p>
+            <div class="imgContainer schedulerImages">
+                <a class="image-link" href="./scheduler-1.png" data-lightbox="scheduler-1" target="_blank"><img src="./scheduler-1.png"></a>
+                <a class="image-link" href="./scheduler-2.png" data-lightbox="scheduler-1" target="_blank"><img src="./scheduler-2.png"></a>
+                <a class="image-link" href="./scheduler-3.png" data-lightbox="scheduler-1" target="_blank"><img src="./scheduler-3.png"></a>
+            </div>
+        </div>
+        <hr class="greenHR">
+        <div class="applicationText">
+            <a href="https://aub.ie/nursing" target="_blank"><h2>Auburn School of Nursing <i class="fas fa-link fa-sm"></i></h2></a>
+            <p>
+                This application is the current main website for the Auburn University School of Nursing. Unlike the previous
+                project, this is a very front-end focused webstie. Plus it's available for the public! So click the link above
+                and give it a look.
             </p>
         </div>
         <hr class="greenHR">
         <div class="applicationText">
-            <h2>Auburn School of Nursing <i class="fas fa-link fa-sm"></i></h2>
-            <p>This app is about</p>
-        </div>
-        <hr class="greenHR">
-        <div class="applicationText">
-            <h2>Auburn Answers <i class="fas fa-link fa-sm"></i></h2>
-            <p>This app is about</p>
+            <a href="https://aub.ie/auburnanswers" target="_blank"><h2>Auburn Answers <i class="fas fa-link fa-sm"></i></h2></a>
+            <p>
+                The Auburn Answers project is an Auburn Student Government Association (SGA) initiative to increase
+                student involvement with campus-wide decisions. Students, faculty, and others can fill out polls, submit
+                questions and comments, and get in touch with SGA representitives. This project has a heavy back-end focus,
+                particularly with allowing SGA administrators to interact with student's submissions and set up polls. Though this
+                is primarily meant for Auburn students , it is available to the general public to interact with and submit responses
+                related to Auburn's campus. Please click the link above and explore!
+            </p>
         </div>
         <hr class="greenHR">
         <div class="applicationText">
             <h2>SGA Voting</h2>
-            <p>This app is about</p>
+            <p>
+                SGA elections at any university are always a very busy time. People everywhere campaigning for their candidate,
+                plenty of platforms to view and speeches to attend, not to mention the craziness of voting day. This project was meant to
+                consolidate all of those things into one central location. The SGA Voting application allows students to vote for their candidate
+                of choice day-of using an easy, mobile-friendly online interface. Admins are able to setup elections and configure
+                them to their needs as well as view demographics and reports following a big election. Students are able to vote with 3 simple clicks!
+                A recent inclusion in this project was the ability to create <a href="https://en.wikipedia.org/wiki/Ranked_voting" target="_blank"><u><em>Ranked Choice</em></u></a> Elections, where voters can rank their top x choices,
+                rather than be forced to only choose one candidate.
+                While this is only open to Auburn University students, I've included a few screenshots below for you to see a voter's
+                perspective.
+            </p>
+            <div class="imgContainer votingImages">
+                <a class="image-link" href="./voting-1.png" data-lightbox="voting-1" target="_blank"><img src="./voting-1.png"></a>
+                <a class="image-link" href="./voting-2.png" data-lightbox="voting-1" target="_blank"><img src="./voting-2.png"></a>
+            </div>
         </div>
         <hr class="greenHR">
         <div class="applicationText">
             <h2>Flunch</h2>
-            <p>This app is about</p>
+            <p>
+                Flunch is a portmanteau of the words "Faculty" and "Lunch". As the name may suggest, this application allows
+                students and faculty to schedule free lunches anywhere on campus with one another. The goal is to allow
+                students to garner better relationships with their professors and other faculty memebers. These "flunches" 
+                are meant primarly for students to discuss grades, research, and other opportunities.
+                Students may request up to three potential dates and times for a flunch, and faculty members may accept the
+                invitation for one of the times or they may suggest a new time for them to meet. What better way to discuss your
+                failing grade than over a free lunch on campus? This site is only for Auburn University members, so I've included
+                some images below of the student's requesting process.
+            </p>
+            <div class="imgContainer flunchImages">
+                <a class="image-link" href="./flunch-1.png" data-lightbox="flunch-1" target="_blank"><img src="./flunch-1.png"></a>
+                <a class="image-link" href="./flunch-2.png" data-lightbox="flunch-1" target="_blank"><img src="./flunch-2.png"></a>
+            </div>
         </div>
     </div>
 </div>
